@@ -1,0 +1,22 @@
+name: Poncho
+description: Tema Drupal basado en <a href="http://argob.github.io/poncho">Poncho</a> (Framework CSS visual para sitios del gobierno Argentino). <br>Adaptado a Drupal por <a href="http://www.criterioweb.com">Diego Sabolo</a>.
+type: theme
+core: 8.x
+base theme: classy
+regions:
+  pre_header:         'Pre Cabecera'
+  header:             'Cabecera'
+  primary_menu:       'Menú Principal'
+  breadcrumb:         'Breadcrumb'
+  jumbotron:          'Area Top (Jumbotron)'
+  content:            'Contenido'
+  sidebar_content:    'Contenido Lateral'
+  secondary_content:  'Contenido Inferior'
+  preFooter_left:     'Prefooter Izquierda'
+  preFooter_right:    'PrefooterDerecha'
+  footer_left:        'Footer Izquierda'
+  footer_middle:      'Footer Medio'
+  footer_right:       'Footer Derecha'
+libraries:
+  - poncho_theme/base
+  - poncho_theme/custom

@@ -1,0 +1,21 @@
+base:
+  css:
+    bootstrap:
+      https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css: {}
+    poncho:
+      poncho/dist/css/roboto-fontface.css: {}
+      poncho/dist/css/droid-serif.css: {}
+      poncho/dist/css/poncho.css: {}
+      poncho/dist/css/drupalize.poncho.css: {}
+      poncho/dist/css/custom.css: {}
+
+  js:
+      https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js: {}
+
+  dependencies:
+    - core/jquery
+
+
+custom:
+      js:
+        poncho/dist/js/custom.js: {}
